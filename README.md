@@ -178,11 +178,7 @@ data/
 
 ## Documentation
 
-| Document | Description |
-|----------|-------------|
-| [User Manual](user_manual.md) | Installation, agent configuration, end-to-end usage guide |
-| [Functional Specification](functional_specification.md) | Tool contracts, data models, workflow state machine |
-| [Implementation Specification](implementation_specification.md) | Module design, class interfaces, testing strategy |
+See the [User Manual](user_manual.md) for installation instructions, agent configuration, EDA tool setup, and a complete end-to-end usage guide.
 
 ## Development
 
