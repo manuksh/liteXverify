@@ -1,0 +1,13 @@
+{
+  "name": "mcpserver_litex",
+  "rules": ["rules/*.md"],
+  "ignore": [
+    "**/__pycache__/",
+    "**/*.pyc",
+    "**/.venv/",
+    "**/state/",
+    "**/build/",
+    "**/sim/",
+    "**/*.log"
+  ]
+}

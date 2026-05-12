@@ -1,0 +1,5 @@
+interface {{ interface.name }}_if(input logic {{ interface.clock }}, input logic {{ interface.reset }});
+{% for sig in signals %}
+  logic [{{ sig.width - 1 }}:0] {{ sig.name }};
+{% endfor %}
+endinterface

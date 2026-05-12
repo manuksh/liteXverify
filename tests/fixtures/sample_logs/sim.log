@@ -1,0 +1,3 @@
+[2026-05-12T00:00:00Z] TEST sanity PASSED
+[2026-05-12T00:00:01Z] TEST regression FAILED
+UVM_ERROR sample error

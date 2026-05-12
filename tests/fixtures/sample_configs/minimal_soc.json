@@ -1,0 +1,26 @@
+{
+  "cpu": {
+    "type": "vexriscv",
+    "variant": "minimal"
+  },
+  "bus": {
+    "standard": "wishbone",
+    "data_width": 32
+  },
+  "clock": {
+    "sys_clk_freq": 100000000
+  },
+  "memory": {
+    "type": "sram",
+    "size": 65536,
+    "base_addr": "0x40000000"
+  },
+  "peripherals": [
+    {
+      "type": "uart",
+      "name": "uart0",
+      "base_addr": "0x82000000",
+      "params": {}
+    }
+  ]
+}
